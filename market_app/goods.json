@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "title": "Meat",
+    "imageSrc": "./images/meat.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Bread",
+    "imageSrc": "./images/bread.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Water",
+    "imageSrc": "./images/water.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Berries",
+    "imageSrc": "./images/berries.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Fruit",
+    "imageSrc": "./images/fruit.jpg"
+  }
+]

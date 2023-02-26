@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+}
+
+#app-container {
+  display: flex;
+  gap: 20px;
+}
+
+#market,
+#basket {
+  border: 2px solid #000;
+  border-radius: 4px;
+  background-color: bisque;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+}
+
+.good {
+  border: 2px solid #000;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.goods {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.good img {
+  width: 100%;
+}
+
+.overflow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.good:hover .overflow {
+  visibility: visible;
+  /* transition: .2ms ease-in-out; */
+}
